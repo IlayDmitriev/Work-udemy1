@@ -1,0 +1,31 @@
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c70101;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    &_main{
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 67px;
+    }
+    &_submet{
+        width: 100%;
+        height: 55px;
+      /*   width: 300px; */
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+   /*  &_media{
+        width: 140px;
+    } */
+}
