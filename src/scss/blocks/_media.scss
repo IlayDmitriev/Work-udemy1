@@ -39,6 +39,11 @@
             line-height: 20px;
         }
     }
+    .priority{
+        &__text{
+            font-size: 13px;
+        }
+    }
 }
 @media(max-width: 592px){
     .container{
@@ -53,6 +58,12 @@
              span{
                  font-size: 15px;
              }
+        }
+    }
+    .priority{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
         }
     }
 }
@@ -201,6 +212,11 @@
         }
         &__icon{
             font-size: 12px;
+        }
+    }
+    .priority{
+        &__header{
+            font-size: 25px;
         }
     }
 }
