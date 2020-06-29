@@ -20,4 +20,13 @@
         line-height: 20px;
 
     }
+    .error{
+        color: #fff;
+        border: 1px solid red;
+        text-align: center;
+     }
+     label.error{
+         border: none;
+     }
+ 
 }
